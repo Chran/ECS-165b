@@ -1,5 +1,5 @@
-Christopher Chan (998005560)
-Brian Oh (997507852)
+Christopher Chan
+Brian Oh
 
 HOW TO RUN THE PROGRAM:
 	Typing 'make' compiles all relevant files and also calls flex/bison.
