@@ -1,6 +1,9 @@
 Christopher Chan
 Brian Oh
 
+ABOUT:
+	This is a project done in ECS 165b (databases). This program is used to build a database from the ground up. We used a google's BTree Map as a way to store indices for user input data. We support the CREATE TABLE, INSERT INTO ... VALUES, SELECT...FROM...WHERE (joins within WHERE clause) functions for this program.
+
 HOW TO RUN THE PROGRAM:
 	Typing 'make' compiles all relevant files and also calls flex/bison.
 	Typing 'make run' runs the executable.
@@ -17,7 +20,7 @@ HOWEVER, with traditional RDBMS like ours, one can JOIN in the WHERE statement (
 
 		FROM tblONE, tblTWO WHERE (one = two)  
 
--Must surround each WHERE clause in parenthesis
+-Must surround each WHERE clauses in parenthesis
 	ex: WHERE (BLAH1) and (BLAH2) or (BLAH3)
 
 -CANNOT have AND/OR within parenthesis (this is due to the fact that none of the parsers including the latest revision take account into more complex queries with nested ANDs/ORs surrounded by parenthesis)
@@ -45,7 +48,7 @@ Assignment(Completed Parts):
 
 Previous Homework Redemption:
 
-	Christopher Chan (99800560), Brian Oh (997507852): 
+	Christopher Chan , Brian Oh: 
 
 	Would like to receive back (full credit - 5 + previous extra credit) on HW3 and HW4 as our final can: 
 	HW3:
